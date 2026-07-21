@@ -185,7 +185,7 @@ for row in range(0, len(LOC)):
 plt.title("Αριθμός των καταγραμμένων οχημάτων ως προς το Link_ID των δρόμων.")
 plt.xlabel("Link_ID δρόμων")
 plt.ylabel("Αριθμός καταγεγραμμένων οχημάτων")
-plt.bar(LOC, tofrom_points, width = 0.1)
+plt.bar(LOC, fromto_points, width = 0.1)
 ax = plt.gca()
 ax.xaxis.set_major_locator(ticker.MultipleLocator(1))
 plt.show()
